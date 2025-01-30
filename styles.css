@@ -83,6 +83,7 @@ header {
 
 /* Reset de estilos */
 
+
 nav {
     background-color: #333;
     color: white;
@@ -147,18 +148,19 @@ nav ul a{
     z-index: 1;
 }
 
+.three-section-rruatos{
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
 .background-section > * {
     position: relative;
     z-index: 2;
 }
-
-body{
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 
 .three-rruatos {
     padding: 10px;
@@ -171,7 +173,6 @@ body{
 .three-rruatos div{
     flex: 1;
     margin: 0 10px;
-    
 }
 
 /* Reset de estilos articulos */
@@ -258,27 +259,43 @@ body{
 
 /* Reset de estilos asesor */
 
-.three-section-asesor{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.three-section-asesor {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-.asesor-info{
-    padding-top: 60px;
+.asesor-info {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.three-asesor{
+.three-asesor {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.three-asesor > div {
+.three-asesor div {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
     flex: 1;
-    margin: 0 10px;
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.three-asesor h2 {
+    margin-bottom: 10px;
+}
+
+.three-asesor p {
+    margin-bottom: 10px;
 }
 
 /* Reset de estilos clientes */
