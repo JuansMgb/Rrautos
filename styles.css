@@ -31,17 +31,25 @@ nav ul li a {
     margin: 0 auto;
     padding: 1em;
 }
+
 .background-section {
     text-align: center;
     padding: 2em 0;
     background-color: #fff;
 }
+
 .background-section img {
     max-width: 100px;
 }
+
+.background-section p{
+    padding-bottom: 30px;
+}
+
 .background-section h1 {
     margin: 0.5em 0;
 }
+
 .section {
     margin: 2em 0;
     padding: 1em;
@@ -49,26 +57,32 @@ nav ul li a {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .section h2 {
     margin-top: 0;
 }
+
 .carousel img {
     width: 100%;
     border-radius: 8px;
 }
+
 .contact-form {
     display: flex;
     flex-direction: column;
 }
+
 .contact-form label {
     margin-top: 1em;
 }
+
 .contact-form input, .contact-form textarea, .contact-form button {
     padding: 0.5em;
     margin-top: 0.5em;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 .contact-form button {
     background-color: #333;
     color: #fff;
@@ -153,27 +167,12 @@ nav ul a{
     z-index: 1;
 }
 
-.three-section-rruatos{
-    background: #fff;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
 
 .background-section > * {
     position: relative;
     z-index: 2;
 }
 
-.three-rruatos {
-    padding: 10px;
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
 
 .three-rruatos div{
     flex: 1;
