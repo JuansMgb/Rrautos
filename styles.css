@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -484,9 +489,14 @@ button:hover {
     color: #ff0000; /* Cambia al color deseado para el hover */
 }
 
+/* footer */
 
-
-
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
 
 
 /* Media queries para dispositivos móviles */
@@ -530,11 +540,3 @@ button:hover {
     }
 }
 
-/* footer */
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
