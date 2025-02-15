@@ -530,6 +530,21 @@ footer {
     padding: 1em 0;
 }
 
+.copy p {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.copy p a {
+    color: #ff0000; /* Cambia el color del enlace */
+    text-decoration: underline; /* Subraya el enlace */
+    transition: color 0.3s ease; /* Añade una transición suave para el color */
+}
+
+.copy p a:hover {
+    color: #00ff00; /* Cambia el color del enlace al pasar el ratón por encima */
+}
 
 /* Media queries para dispositivos móviles */
 
