@@ -515,7 +515,7 @@ button:hover {
 }
 
 .social-media ul a:hover .redes {
-    color: #ff0000; /* Cambia al color deseado para el hover */
+    color: #ff0000; 
 }
 
 /* footer */
@@ -534,13 +534,13 @@ footer {
 }
 
 .copy p a {
-    color: #ff0000; /* Cambia el color del enlace */
-    text-decoration: underline; /* Subraya el enlace */
-    transition: color 0.3s ease; /* Añade una transición suave para el color */
+    color: #ff0000; 
+    text-decoration: underline; 
+    transition: color 0.3s ease; 
 }
 
 .copy p a:hover {
-    color: #00ff00; /* Cambia el color del enlace al pasar el ratón por encima */
+    color: #00ff00; 
 }
 
 /* Media queries para dispositivos móviles */
