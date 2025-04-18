@@ -34,7 +34,6 @@ nav ul li a {
 .background-section {
     text-align: center;
     padding: 2em 0;
-    background-color: #fff;
 }
 
 .background-section img {
@@ -66,8 +65,6 @@ nav ul li a {
     border-radius: 8px;
 }
 
-
-
 /* Encabezado */
 
 header {
@@ -82,16 +79,24 @@ header {
 /* Estilos para el menú responsivo */
 
 nav {
+    height: 60px;
     background-color: #333;
     color: white;
     display: flex;
-    justify-content: space-between; /* Cambiado de center a space-between */
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Añadido padding para espacio alrededor del contenido */
+    padding: 10px 20px;
+    transition: all 0.3s ease; /* Añade una transición suave */
+}
+
+nav.scrolled {
+    height: 50px; /* Reduce la altura al hacer scroll */
+    background-color: #222; /* Cambia el color de fondo */
 }
 
 .logo img {
-    max-width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    max-width: 70px; /* Reduce el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .menu-toggle {
@@ -134,8 +139,6 @@ div img{
     margin-left: 10px;
 }
 
-
-
 nav ul {
     list-style-type: none;
     display: flex;
@@ -144,7 +147,6 @@ nav ul {
     align-items: center;
     flex-direction: row;
     width: 100%;
-  
 }
 
 nav ul a{
@@ -154,11 +156,9 @@ nav ul a{
     
 }
 
-
-
 .background-section {
     position: relative;
-    background-image: url(''); /* imagen de fondo */
+    background-image: url('imgs/autos.png'); /* imagen de fondo */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,12 +183,10 @@ nav ul a{
     z-index: 1;
 }
 
-
 .background-section > * {
     position: relative;
     z-index: 2;
 }
-
 
 .three-rruatos div{
     flex: 1;
@@ -200,6 +198,7 @@ nav ul a{
 .three-artles{
     text-align: center;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .three-artles h2{
@@ -242,13 +241,12 @@ nav ul a{
 
 .carousel-item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto; /* Ajusta la altura automáticamente */
+    object-fit: contain; /* Muestra la imagen completa sin recortarla */
 }
 
 .carousel-caption {
     position: absolute;
- 
     top: 360px;
     left: 50%;
     transform: translateX(-50%);
@@ -306,10 +304,10 @@ nav ul a{
 .three-asesor div {
     background: #f9f9f9;
     padding: 20px;
-    margin: 10px;
+    margin: 16px;
     flex: 1;
     min-width: 232px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.156);
     border-radius: 10px;
     text-align: center;
 }
@@ -398,6 +396,20 @@ button:hover {
     background-color: #473f397c;
 }
 
+.three-section-info{
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.three-section-info h2{
+    margin-bottom: 20px;
+}
+
+.three-section-info p{
+    margin-bottom: 20px;
+}   
+
 /* Formulario */
 
 .three-section-from{
@@ -409,6 +421,7 @@ button:hover {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
+    padding-bottom: 66px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -438,6 +451,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-top: 26px;
 }
 
 .contact-form label {
